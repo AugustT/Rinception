@@ -120,8 +120,8 @@ retrainInception <- function(imageDir = 'images',
   retrain_path <- file.path(system.file("python", package = "Rinception"), 'retrain_new.py')
   start <- Sys.time()
   cat('Calling Python...\n')
-  cat(retrain_path, '\n')
-  cat(callargs, '\n')
+  # cat(retrain_path, '\n')
+  # cat(callargs, '\n')
 
   system2(command = 'python',
           args = c(formatPath(retrain_path), callargs))
