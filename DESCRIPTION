@@ -1,9 +1,11 @@
 Package: Rinception
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
+Title: Create, and predict from, image classifiers
+Version: 0.1
 Date: 2017-08-25
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Author: Tom August
+Maintainer: Tom August <tomaug@ceh.ac.uk>
+Suggests: tensorflow
+Description: Undertakes transfer learning with inception v3 architecture image recognition model. Provides facilities for creating new image classifiers from training image sets and to classify new images.
 License: Apache v2.0
+RoxygenNote: 6.0.1
